@@ -1,0 +1,17 @@
+{
+  "name": "studygroup-backend",
+  "version": "1.0.0",
+  "description": "Student Study Group Finder Node-Express backend",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --watch --env-file=.env app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.1"
+  }
+}
